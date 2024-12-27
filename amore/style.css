@@ -1,0 +1,158 @@
+header{
+    
+    background-image: url(assets/FT/12e022a6-bc34-4556-9f6d-b5de08d1896f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+header::before{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.header-text{
+    text-align: center;
+    margin-top: 70px;
+    position: absolute;
+    color: rgb(231, 43, 43);
+}
+#header-p{
+    color: #fff;
+    font-size: 1.4em;
+}
+.header-img{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    align-items: self-end;
+    justify-content: center;
+}
+
+.header-img img{
+    margin-bottom: 100px;
+    width: 150px;
+    height: 150px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 412px;
+    height: 100%;
+    
+}
+section{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100vh;
+max-width: 100vw;
+}
+.section-1{
+    
+background-color: aliceblue;
+
+align-items: center;
+justify-content: center;
+gap: 20px;
+
+}
+
+.section-1 p{
+    background-color: pink;
+    border-radius: 20px;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.3em;
+}
+
+#img-1{
+    width: 250px;
+    height: 250px;
+    border: solid 3px #000;
+    border-radius: 20px;
+}
+
+#img-2{
+    border-radius: 20px;
+    width: 250px;
+    height: 200px;
+    border: solid 3px #000;
+}
+
+#section-2-id{
+background-color: #000;
+color: #fff;
+height: 100%;
+}
+.section-2{
+    gap: 20px;
+}
+
+.section-2 p {
+    background-color: rgb(54, 54, 54);
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+.section-2 h1{
+    font-size: 1.8em;
+    font-weight: 900;
+    text-transform: uppercase;
+    
+}
+.section-2 .component img{
+    width: 390px;
+    height: 400px;
+    
+    border-radius: 20px;
+   
+    filter: saturate(1.2);
+    background-color: #fff;
+}
+
+.section-2 .component #content-img{
+    width: 390px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.section-2 .component #content-img img{
+    width: 450px;
+    height: 600px;
+}
+
+footer{
+    background-image: url(assets/FT/7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+footer p{
+    margin: auto;
+    text-align: center;
+background-color: pink;
+border-radius: 20px;
+font-size: 1.4em;
+width: 350px;
+padding: 15px;
+margin-top: 10px;
+margin-bottom: 10px;
+opacity: 0.9;
+}

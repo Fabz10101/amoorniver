@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Parábens Amor</title>
+</head>
+<body>
+    <style>
+        @charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    background-image: url(assets/mm.MP4);
+    height: 905px;
+
+}
+
+
+#img{
+    width: 170px;
+    height: 170px;
+}
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+a{
+color: #FFFF;
+background-color: red;
+border-radius: 10px;
+text-decoration: none;
+padding: 15px;
+width: 100px;
+text-align: center;
+font-family: "Roboto",sans-serif;
+font-weight: bold;
+font-size: 1.3rem
+}
+
+
+main video {
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 800px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+    </style>
+<main>
+    <video autoplay repeat muted src="assets/mm.MP4"></video>
+    <section>
+        <img  id="img" src="assets/mail-3619_128.gif" alt="">
+        <a href="./index2.html" rel="noopener noreferrer">Abrir</a>
+    </section>
+</main>
+
+
+
+<script>
+    onmouseover
+    function fuja(){
+        var botaoNao = document.getElementById("nao")
+
+        var larguraJanela = window.innerWidth;
+        var alturaJanela = window.innerHeight;
+
+        var maxX = larguraJanela - botaoNao.offsetWidth;
+        var maxY = alturaJanela - botaoNao.offsetHeight;
+
+        var aleatoryX = Math.floor(Math.random() * maxX);
+        var aleatoryY = Math.floor(Math.random() * maxY);
+
+        botaoNao.style.left = aleatoryX + "px";
+        botaoNao.style.top = aleatoryY + "px";
+    }
+</script>
+</body>
+</html>
